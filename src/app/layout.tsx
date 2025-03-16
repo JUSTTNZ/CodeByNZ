@@ -9,8 +9,8 @@ const geistSans = Poppins({
 });
  
 export const metadata: Metadata = {
-  title: 'Robinson Honour | Creative Software Engineer',
-  description: 'Creative Software Engineer with 6+ years of experience, specializing in web development, app development, robotics, cloud computing, and game development. Building scalable products with great user experiences.',
+  title: 'Confidence Chukwudi | Creative Software Developer',
+  description: 'Creative Software Developer with 3+ years of experience, specializing in web development, app development, robotics, cloud computing, and game development. Building scalable products with great user experiences.',
   keywords: ['Software Engineer', 'Web Development', 'App Development', 'Robotics', 'Cloud Computing', 'Game Development', 'Full Stack Developer', 'Robinson Honour'],
   authors: [{ name: 'Robinson Honour' }],
   creator: 'Robinson Honour',

@@ -11,7 +11,7 @@ const Hero = () => {
           <div>
             <div className="gradientText">
               <h1>
-                Creative Software Engineer<span>.</span>
+                Creative Software Developer<span>.</span>
               </h1>
             </div>
             <p className="gradientText font-medium font-pop text-[15px] text-[#FFFFFF99] max-w-[353px] mt-[45px] md:mt-8 lg:mt-1 md:max-w-[639px] md:text-[18px] leading-md:[27px]">
