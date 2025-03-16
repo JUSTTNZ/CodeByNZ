@@ -57,8 +57,8 @@ const services = [
 
 const Services = () => {
     return (
-        <section className="relative py-24 px-4 md:px-8 lg:px-16 overflow-hidden">
-            <div className="absolute inset-0 " />
+        <section className="relative py-24 px-4 md:px-8 lg:px-16 overflow-hidden bg-[#200406]">
+            <div className="absolute inset-0" />
 
             <div className="max-w-7xl mx-auto relative">
                 <motion.div
@@ -71,7 +71,7 @@ const Services = () => {
                         Services
                         <span className="inline-block ml-4 transform hover:scale-110 transition-transform">🔥</span>
                     </h1>
-                    <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-blue-500 mb-6" />
+                    <div className="h-1 w-24 bg-gradient-to-r from-[#ef4444] to-[#f87171] mb-6" />
                     <p className="text-[#FFFFFF99] text-base md:text-l ">
                         Specialized in multiple domains of software and hardware engineering
                     </p>
@@ -84,35 +84,37 @@ const Services = () => {
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 0.3, delay: service.id * 0.05 }}
+                            transition={{ duration: 0.4, delay: service.id * 0.05 }}
 
                             whileHover={{
-                                scale: 1.02,
-                                translateY: -5,
-                                boxShadow: "0 20px 40px rgba(0,0,0,0.2)"
+                                scale: 1.015,
+                                translateY: -2,
+                                boxShadow: "0 10px 20px rgba(239,68,68,0.2)"
                             }}
-                            className="group relative bg-[#130b1c]/80 backdrop-blur-lg rounded-lg overflow-hidden border border-[#ffffff10]"
+                            className="group relative bg-[#200406] rounded-lg overflow-hidden border border-[#ef444410] transform-gpu will-change-transform"
                         >
-                            <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-blue-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                            {/* Soft hover gradient background */}
+                            <div className="absolute inset-0 bg-gradient-to-br from-[#ef4444]/10 to-[#f87171]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-                            <div className="relative p-8">
-                                <div className="flex items-center justify-between mb-6">
-                                    <span className="text-3xl transform group-hover:scale-110 transition-transform duration-300">
-                                        <service.icon className="w-8 h-8 text-purple-500" strokeWidth={1.5} />
+                            {/* Card Content */}
+                            <div className="relative p-8 space-y-4">
+                                <div className="flex items-center justify-between mb-4">
+                                    <span className="p-2 rounded-md bg-[#ef444420] group-hover:bg-[#ef444430] transition">
+                                        <service.icon className="w-7 h-7 text-[#ef4444]" strokeWidth={1.5} />
                                     </span>
-                                    <div className="h-px w-16 bg-gradient-to-r from-purple-500 to-blue-500 opacity-50" />
+                                    <div className="h-px w-16 bg-gradient-to-r from-[#ef4444] to-[#f87171] opacity-50" />
                                 </div>
 
-                                <h3 className="text-white text-xl  font-clashbold mb-4 tracking-wide">
+                                <h3 className="text-white text-xl font-clashbold mb-2 tracking-wide">
                                     {service.title}
                                 </h3>
 
-                                <p className="text-[#FFFFFF99] text-sm leading-relaxed">
+                                <p className="text-[#e5e7eb] text-sm leading-relaxed">
                                     {service.description}
                                 </p>
                             </div>
 
-                            <div className="h-[2px] w-full bg-gradient-to-r from-purple-500/50 to-blue-500/50 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
+                            <div className="h-[2px] w-full bg-gradient-to-r from-[#ef4444]/50 to-[#f87171]/50 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
                         </motion.div>
                     ))}
                 </div>
@@ -122,3 +124,4 @@ const Services = () => {
 };
 
 export default Services;
+

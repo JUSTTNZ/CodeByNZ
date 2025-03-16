@@ -29,16 +29,21 @@ const Resume = ({ pdfUrl, fileName, buttonText }: ResumeProps) => {
       console.error("Error downloading PDF:", errorMessage);
     }
   };
+
   return (
-    <div className="transition-all duration-300 active:scale-[0.96] max-w-[200px] mx-auto md:mx-0 flex justify-center lg:flex lg:justify-start">
-      <span
+    <div className="max-w-[200px] mx-auto md:mx-0 flex justify-center lg:flex lg:justify-start">
+      <button
         onClick={downloadPDF}
-        className="cursor-pointer bg-gradient-to-r max-w-[197px] lg:max-w-[252px] to-[#D9D9D9] from-[#D9D9D900] py-0.5 pr-0.5"
+        className="relative bg-gradient-to-r from-[#ef4444] to-[#f87171] rounded-lg p-[1px] group focus:outline-none focus:ring-2 focus:ring-[#ef4444]/50 transition-transform duration-150 active:translate-y-[1px]"
       >
-        <p className="bg-[#0b040c] px-[17px] py-[18px] font-medium text-[18px] font-clash">
-          {buttonText || "Download PDF"}
-        </p>
-      </span>
+        <span className="flex items-center justify-center w-full h-full bg-[#0b040c] rounded-md px-6 py-4 transition-colors duration-300 group-hover:text-[#f87171]">
+          <span className="font-medium text-[18px] font-clash text-white">
+            {buttonText || "Download PDF"}
+          </span>
+        </span>
+        {/* Hover glow layer */}
+        <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-[#ef4444]/10 to-[#f87171]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0" />
+      </button>
       <Toaster />
     </div>
   );

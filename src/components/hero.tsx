@@ -15,16 +15,15 @@ const Hero = () => {
               </h1>
             </div>
             <p className="gradientText font-medium font-pop text-[15px] text-[#FFFFFF99] max-w-[353px] mt-[45px] md:mt-8 lg:mt-1 md:max-w-[639px] md:text-[18px] leading-md:[27px]">
-              I like to craft solid and scalable products with great
-              user experiences.
+              I enjoy crafting dependable and scalable products designed with user experience at the core.
             </p>
             <div
               id="intro"
               className="text-[#F0FEFF] font-pop flex-shrink-0 text-[.9em] leading-[1.5] font-medium mt-[40px] flex flex-col gap-8 md:flex md:flex-col md:gap-[20px] md:mt-[45px] lg:flex lg:flex-row lg:items-start lg:gap-[12px]"
             >
               <p className="max-w-[310px]">
-                I&#39;m Robinson Honour, with 6+ Years of experience. Started coding in 2017, specializing in web development,
-                app development, robotics, cloud computing, and game development.
+                I&#39;m Confidence Chukwudi, with 3+ Years of experience. Started coding in 2022, specializing in web development,
+                mobile development.
               </p>
               <p className="max-w-[319px]">
                 Self-taught programmer with proven experience in building live projects.
@@ -41,8 +40,8 @@ const Hero = () => {
                 className="h-auto w-auto"
               >
                 <FbIcon
-                  fill="#6f1cd7"
-                  className={`w-[30px] h-[30px] rounded-full border-[#6f1cd7] border-solid border-[2px] p-0.5  transition-all duration-500 hover:bg-white`}
+                  fill="#ef4444"
+                  className={`w-[30px] h-[30px] rounded-full border-[#ef4444] border-solid border-[2px] p-0.5  transition-all duration-500 hover:bg-white`}
                 />
               </motion.a>
               <motion.a
@@ -54,8 +53,8 @@ const Hero = () => {
                 className={`h-auto w-auto`}
               >
                 <TwIcon
-                  fill={`#6f1cd7`}
-                  className={`w-[30px] h-[30px] rounded-full border-[#6f1cd7] border-solid border-[2px] p-1  transition-all duration-500 hover:bg-white`}
+                  fill={`#ef4444`}
+                  className={`w-[30px] h-[30px] rounded-full border-[#ef4444] border-solid border-[2px] p-1  transition-all duration-500 hover:bg-white`}
                 />
               </motion.a>
               <motion.a
@@ -67,12 +66,12 @@ const Hero = () => {
                 className={`h-auto w-auto`}
               >
                 <IgIcon
-                  fill={`#6f1cd7`}
-                  className={`w-[30px] h-[30px] rounded-full border-[#6f1cd7] border-solid border-[2px] p-0.5  transition-all duration-500 hover:bg-white`}
+                  fill={`#ef4444`}
+                  className={`w-[30px] h-[30px] rounded-full border-[#ef4444] border-solid border-[2px] p-0.5  transition-all duration-500 hover:bg-white`}
                 />
               </motion.a>
               <motion.a
-                href="https://ng.linkedin.com/in/robinsonhonouramadi"
+                href="http://linkedin.com/in/confidence-chukwudi-0236322a5"
                 target="_blank"
                 rel="noreferrer"
                 whileTap={{ scale: 1.1 }}
@@ -80,8 +79,8 @@ const Hero = () => {
                 className={`h-auto w-auto`}
               >
                 <InIcon
-                  fill={`#6f1cd7`}
-                  className={`w-[30px] h-[30px] rounded-full border-[#6f1cd7] border-solid border-[2px] p-0.5  transition-all duration-700 hover:bg-white`}
+                  fill={`#ef4444`}
+                  className={`w-[30px] h-[30px] rounded-full border-[#ef4444] border-solid border-[2px] p-0.5  transition-all duration-700 hover:bg-white`}
                 />
               </motion.a>
             </div>
@@ -90,7 +89,7 @@ const Hero = () => {
             <div className="relative flex flex-col justify-center w-max">
               <div className={`w-full`}>
                 <Image
-                  src="/images/hero.png"
+                  src="/images/portrait-young-handsome-male.jpg"
                   alt="hero image"
                   width={400}
                   height={400}
@@ -100,7 +99,7 @@ const Hero = () => {
                 />
               </div>
               <motion.div
-                className={`shrink-0 w-[300px] h-[300px] lg:min-w-[400px] lg:min-h-[400px] border-[3px] border-[#6f1cd7]`}
+                className={`shrink-0 w-[300px] h-[300px] lg:min-w-[400px] lg:min-h-[400px] border-[3px] border-[#ef4444]`}
               ></motion.div>
             </div>
           </div>

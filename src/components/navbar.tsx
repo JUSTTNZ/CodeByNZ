@@ -12,7 +12,7 @@ const Navbar = () => {
             <main className="">
                 <header
                     className={clsx(
-                        "fixed z-40 top-0 md:relatives bg-[#0b040c]/90 pb-3  w-full pt-[20px] px-[32px] md:py-[30px] lg:px-[80px]"
+                        "fixed z-40 top-0 md:relatives bg-[#200406]/90 pb-3  w-full pt-[20px] px-[32px] md:py-[30px] lg:px-[80px]"
                     )}
                 >
                     <nav className="flex items-center justify-between">
@@ -20,7 +20,7 @@ const Navbar = () => {
                             <div
                                 className={`before:content-[''] font-clashbold font-semibold text-[18px] md:text-[25px] lg:hover:before:bg-[#4C686F]s active:scale-[0.86] transition-all duration-100 before:absolute before:h-1 before:-bottom-1 before:transition-all before:duration-300 ${pathname === '/' ? "text-white hover:before:w-full" : "text-white hover:before:w-full"} relative`}
                             >
-                                Honour<span>!</span>
+                                CodeByNZ<span>!</span>
                                 <span>⚡</span>
                             </div>
                         </Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
                             <Link
                                 target="_blank"
                                 rel="noreferrer"
-                                href="https://www.github.com/ikwerre-dev"
+                                href="https://www.github.com/JUSTTNZ"
                                 className="group-hover:text-white transition-colors duration-300"
                             >
                                 <span className="flex items-center gap-[8px] md:gap-[10px]">
