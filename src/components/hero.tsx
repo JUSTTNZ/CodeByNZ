@@ -45,7 +45,7 @@ const Hero = () => {
                 />
               </motion.a>
               <motion.a
-                href="https://x.com/codebynz/status/1851872445797482785?s=46"
+                href="https://x.com/codebynz/status"
                 target="_blank"
                 rel="noreferrer"
                 whileTap={{ scale: 1.1 }}

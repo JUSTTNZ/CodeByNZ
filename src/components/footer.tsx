@@ -56,7 +56,7 @@ const Footer = () => {
             link: "https://web.facebook.com/profile.php?id=100084461681869"
           }, {
             Icon: TwIcon,
-            link: "https://x.com/codebynz/status/1851872445797482785?s=46"
+            link: "https://x.com/codebynz/status"
           }, {
             Icon: IgIcon,
             link: "https://www.instagram.com/justt_nz?utm_source=qr"
