@@ -58,7 +58,7 @@ const Hero = () => {
                 />
               </motion.a>
               <motion.a
-                href="https://www.instagram.com/robinsonhonour"
+                href="https://www.instagram.com/justt_nz?utm_source=qr"
                 target="_blank"
                 rel="noreferrer"
                 whileTap={{ scale: 1.1 }}
