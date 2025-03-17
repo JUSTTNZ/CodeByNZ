@@ -32,7 +32,7 @@ const Hero = () => {
             </div>
             <div className="mt-[35px] md:mt-[65px] flex justify-start items-center  gap-[26px] md:gap-[40px]">
               <motion.a
-                href="https://www.facebook.com/honour.robinson.1"
+                href="https://www.facebook.com/confidence.chukwudi.5"
                 target="_blank"
                 rel="noreferrer"
                 whileTap={{ scale: 1.1 }}

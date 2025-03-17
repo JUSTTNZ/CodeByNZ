@@ -53,16 +53,16 @@ const Footer = () => {
         <div className="mt-[10px] md:mt-[65px] flex justify-start items-center gap-[20px] md:gap-[40px]">
           {[{
             Icon: FbIcon,
-            link: "https://www.facebook.com/honour.robinson.1"
+            link: "https://web.facebook.com/profile.php?id=100084461681869"
           }, {
             Icon: TwIcon,
-            link: "https://x.com/honour_can_code"
+            link: "https://x.com/codebynz/status/1851872445797482785?s=46"
           }, {
             Icon: IgIcon,
-            link: "https://www.instagram.com/robinsonhonour"
+            link: "https://www.instagram.com/justt_nz?utm_source=qr"
           }, {
             Icon: InIcon,
-            link: "https://ng.linkedin.com/in/robinsonhonouramadi"
+            link: "http://linkedin.com/in/confidence-chukwudi-0236322a5"
           }].map((social, index) => (
             <motion.a
               key={index}
