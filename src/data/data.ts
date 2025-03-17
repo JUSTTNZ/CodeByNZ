@@ -2,7 +2,7 @@ export const projects = [
   {
     name: "Anon Truth",
     desc: "AnonTruth is an anonymous group chat app where messages are sent without revealing the sender’s identity. Over 500 users are already sharing unfiltered thoughts freely. 🚀",
-    lang: "ReactJS + TailwindCSS + Firebase",
+    lang: "ReactJS + TailwindCSS + NODE + MONGODB + EXPRESSJS",
     link: "https://anon-truth-owpm.vercel.app/",
   },
   {
@@ -26,15 +26,16 @@ export const projects = [
   {
     name: "NZ BOT",
     desc: "NZ Bot is an AI-powered tool built for teens to easily ask questions and get helpful answers. Powered by the Gemini API, it’s designed with a simple, accessible interface—no complicated pages, just direct and easy conversations.",
-    lang: "ReactJS + TailwindCSS",
+    lang: "ReactJS + TailwindCSS + GEMINI API",
     link: "https://nami-bot-beta.vercel.app/",
   },
   {
     name: "REDEFINE GAMING",
-    desc: "EDEFINE GAMING is a gaming website showcasing details about a company's newly launched game. The project’s primary goal was to practice and implement smooth GSAP animations for an engaging user experience.",
-    lang: "ReactJS + TailwindCSS",
+    desc: "REDEFINE GAMING is a gaming website showcasing details about a company's newly launched game. The project’s primary goal was to practice and implement smooth GSAP animations for an engaging user experience.",
+    lang: "ReactJS + TailwindCSS + GSAP ANIMATION",
     link: "https://gamify-gules.vercel.app/",
-  }
+  },
+
 ];
 
 
@@ -77,10 +78,6 @@ export const skills = [
     title: "TypeScript",
   },
   {
-    id: 7,
-    title: "Jquery",
-  },
-  {
     id: 8,
     title: "ReactJs",
   },
@@ -106,11 +103,11 @@ export const skills = [
   },
   {
     id: 14,
-    title: "Premiere pro",
+    title: "Gsap Animation",
   },
   {
     id: 15,
-    title: "NodeJs/Express",
+    title: "NodeJs/ExpressJS",
   },
   {
     id: Math.random(),

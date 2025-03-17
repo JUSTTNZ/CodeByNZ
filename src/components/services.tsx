@@ -2,9 +2,6 @@
 import { motion } from "framer-motion";
 import {
     Smartphone,
-    BotIcon,
-    Palette,
-    Cloud,
     Code,
     Server
 } from 'lucide-react';
@@ -30,27 +27,6 @@ const services = [
         description: "Developing cross-platform mobile applications and desktop software solutions that deliver seamless user experiences across different devices.",
         icon: Smartphone,
         category: "Mobile"
-    },
-    {
-        id: 4,
-        title: "ROBOTICS ENGINEERING",
-        description: "Creating and programming robotic systems, specializing in automation and control systems as a resource personnel for Airobot in Bonny Island.",
-        icon: BotIcon,
-        category: "Engineering"
-    },
-    {
-        id: 5,
-        title: "UI DESIGN",
-        description: "Crafting intuitive and visually appealing user interfaces with a focus on user-centered design principles and modern design trends.",
-        icon: Palette,
-        category: "Design"
-    },
-    {
-        id: 6,
-        title: "CLOUD COMPUTING",
-        description: "Implementing and managing cloud solutions, leveraging services for scalable and efficient application deployment and infrastructure management.",
-        icon: Cloud,
-        category: "Infrastructure"
     }
 ];
 
@@ -73,7 +49,7 @@ const Services = () => {
                     </h1>
                     <div className="h-1 w-24 bg-gradient-to-r from-[#ef4444] to-[#f87171] mb-6" />
                     <p className="text-[#FFFFFF99] text-base md:text-l ">
-                        Specialized in multiple domains of software and hardware engineering
+                        Specialized in multiple domains of Software Development.
                     </p>
                 </motion.div>
 

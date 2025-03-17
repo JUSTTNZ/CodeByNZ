@@ -1,7 +1,7 @@
 'use client'
 
 import Resume from "./resume";
-const resumeUrl = '/pdf/resume.pdf';
+const resumeUrl = '/pdf/NZ.pdf';
 import { motion } from "framer-motion";
 
 const Experience = () => {
@@ -29,64 +29,54 @@ const Experience = () => {
 
           {/* Experience Cards */}
           <div className="space-y-12">
-            {[
+                        {[
               {
-                title: "Frontend Developer",
-                company: "Steadfast International",
-                location: "Lagos, Nigeria",
-                period: "2025 - Present",
-                description: [
-                  "Leading the development of a Progressive Web App (PWA) eCommerce platform, Admin Panel, and Affiliate Marketing Website",
-                  "Implementing responsive and mobile-first design principles with modern frontend technologies",
-                  "Collaborating with the product team to deliver high-performance web applications with focus on user experience",
-                  "Building scalable frontend architecture for multiple interconnected platforms"
+                "title": "Founder & Backend Lead",
+                "company": "TRUPAY",
+                "location": "Remote",
+                "period": "2025 - Present",
+                "description": [
+                  "Founded and currently lead the development of TRUPAY, a user-friendly, secure, and efficient platform simplifying textbook purchases for students.",
+                  "Overseeing backend development to ensure seamless browsing, payment, and order tracking functionalities for users.",
+                  "Designed the platform to eliminate the need for long bank queues by enabling online transactions.",
+                  "Leading the engineering team to maintain system security, performance, and scalability."
+                ]
+              },            
+              {
+                "title": "Frontend Developer",
+                "company": "GENESYS TECH HUB",
+                "location": "Remote",
+                "period": "10/2024 - Present",
+                "description": [
+                  "Designed and developed a responsive landing page for a game application, resulting in a 25% increase in user engagement and sign-ups.",
+                  "Built a fully functional online store using React.js, Tailwind CSS, and Redux, enhancing customer experience and reducing cart abandonment by 15%."
                 ]
               },
               {
-                title: "Fullstack Developer & CEO",
-                company: "Pxxl Space",
-                location: "PH, Nigeria",
-                period: "2023 - Present",
-                description: [
-                  "Led the development and implementation of innovative web solutions.",
-                  "Managed both frontend and backend aspects of projects.",
-                  "Oversaw company operations and strategic decision-making as CEO."
+                "title": "Frontend and Backend Developer",
+                "company": "HNG Tech",
+                "location": "Remote",
+                "period": "07/2024 - 09/2024",
+                "description": [
+                  "Collaborated with UI/UX designers to develop and implement responsive and pixel-perfect e-commerce platforms, improving user experience and site performance by 20%.",
+                  "Engineered and deployed a Hello API to retrieve user geolocation data and provide real-time weather forecasts using Node.js and Flask, ensuring global access and reducing latency by 30%.",
+                  "Utilized Docker for containerization and deployed projects to Vercel, contributing to a 15% improvement in team efficiency.",
+                  "Recognized for consistently delivering high-quality code on time and exceeding expectations in a fast-paced remote environment."
                 ]
               },
               {
-                title: "Fullstack Developer",
-                company: "Indulgetix",
-                location: "Lagos, Nigeria",
-                period: "2024 - Present",
-                description: [
-                  "Built backend infrastructure for an event management platform.",
-                  "Designed and implemented APIs for seamless event booking and management.",
-                  "Optimized database performance for handling high-volume ticket sales."
-                ]
-              },
-              {
-                title: "Backend Developer",
-                company: "Organ Station",
-                location: "Remote",
-                period: "2022 - 2023",
-                description: [
-                  "Developed robust backend systems for healthcare applications.",
-                  "Implemented secure data management solutions for sensitive medical information.",
-                  "Collaborated with frontend teams to ensure seamless integration."
-                ]
-              },
-              {
-                title: "Director of IT",
-                company: "Intelligentsia",
-                location: "PH, Nigeria",
-                period: "2018 - Present",
-                description: [
-                  "Oversee all IT operations and infrastructure for the school.",
-                  "Implement innovative technology solutions to enhance learning experiences.",
-                  "Manage IT staff and ensure alignment with educational goals."
+                "title": "Frontend Developer Intern",
+                "company": "GENESYS TECH HUB",
+                "location": "Remote",
+                "period": "10/2023 - 12/2023",
+                "description": [
+                  "Contributed to the development of a hospital management website, improving usability and technical execution, earning a top 10% score among all internship projects.",
+                  "Developed responsive web applications, ensuring optimal performance across devices, and resulting in a 20% increase in user retention.",
+                  "Strengthened technical expertise in JavaScript, HTML5, CSS, and React.js, while working in an agile environment and participating in daily scrums."
                 ]
               }
-            ].map((experience, index) => (
+            ]
+            .map((experience, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, x: -20 }}
@@ -150,7 +140,7 @@ const Experience = () => {
           >
             <Resume
               pdfUrl={resumeUrl}
-              fileName="RobinsonHonour.pdf"
+              fileName="ConfidenceChukwudi.pdf"
               buttonText="Download Resume"
             />
           </motion.div>
