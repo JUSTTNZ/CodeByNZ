@@ -47,7 +47,7 @@ const Contact = () => {
           </div>
           <a
             className="text-[#ffffffcc] font-medium text-base md:text-[20px] md:leading-[30px]"
-            href="mailto:codewithhonour@gmail.com"
+            href="mailto:codebynz01@gmail.com"
           >
             codebynz01@gmail.com
           </a>
