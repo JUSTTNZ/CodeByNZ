@@ -107,7 +107,7 @@ export const skills = [
   },
   {
     id: 15,
-    title: "NodeJs/ExpressJS",
+    title: "NodeJs/ ExpressJS",
   },
   {
     id: Math.random(),
