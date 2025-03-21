@@ -72,7 +72,7 @@ const Contact = () => {
             <LocationIcon className="w-[30px] h-[30px] p-2 md:p-[5px] bg-[#0b040c] rounded-full md:w-[36px] md:h-[36px]" />
           </div>
           <p className="text-[#ffffffcc] text-base mx-auto text-center font-medium md:text-[20px] md:leading-[30px]">
-            {timeOfDay === "morning" && <span>metaverse!⚡</span>}
+            {timeOfDay === "morning" && <span>Utopia⛩️</span>}
             {timeOfDay === "afternoon" && <span>localhost:3000</span>}
             {timeOfDay === "evening" && <span>127.0.0.1:5500</span>}
           </p>
