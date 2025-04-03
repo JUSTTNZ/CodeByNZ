@@ -38,7 +38,7 @@ const Footer = () => {
             </span>
             <p className="text-[#ffffffcc] md:text-xl text-lg font-medium">
               CodeByNZ
-              <span className="text-[#FFFFFF] text-[14px] lg:text-base"> 53 BC - </span>
+              <span className="text-[#FFFFFF] text-[14px] lg:text-base"> 2002 - </span>
               <span className="text-[#FFFFFF] text-[14px] lg:text-base">
                 {new Date().getFullYear()}
               </span>
